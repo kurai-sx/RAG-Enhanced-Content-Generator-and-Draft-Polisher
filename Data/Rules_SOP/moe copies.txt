@@ -1,0 +1,28 @@
+﻿MoEngage is a customer engagement and retention platform used by businesses to create personalized and automated marketing campaigns across multiple channels like mobile apps, websites, email, SMS, push notifications, WhatsApp, and more.
+What MoEngage Does:
+It helps businesses:
+* Understand user behavior with analytics and insights
+
+* Segment users based on their actions, preferences, or demographics
+
+* Automate engagement with personalized messages across multiple channels
+
+* Increase user retention by triggering the right message at the right time
+
+* A/B test campaigns to optimize messaging and user experience
+
+ Use Cases:
+   1. Mobile Push Notifications: Send behavior-triggered messages to keep users engaged with your app.
+
+   2. Email Marketing: Run automated email campaigns based on user activity.
+
+   3. In-App Messaging: Show contextual messages when users open your app.
+
+   4. SMS & WhatsApp Campaigns: Reach users outside the app with promotions or updates.
+
+   5. Customer Journey Orchestration: Create workflows that respond to user actions in real time.
+
+   6. Product Analytics: Track what users are doing in your app or website and optimize based on data. 
+
+
+Refer to this document for the template being followed to write MOE copies

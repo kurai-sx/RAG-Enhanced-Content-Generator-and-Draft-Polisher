@@ -1,0 +1,53 @@
+﻿Note: 
+
+
+For every story we work on, the following deliverables need to be shared:
+1. Title
+
+2. Long-form content – This includes the main story, body copy, and a clear call to action (CTA).
+
+3. About the NGO – A brief section that introduces the NGO and its mission.
+
+4. Ad copies – Short versions of the story tailored for Google and Meta (Facebook/Instagram) ads.
+ 
+Every campaign we publish goes through a thoughtful, structured process to ensure the story is authentic, impactful, and ready to inspire action.
+   1. Lead Onboarding
+Our Business Development (BD) team identifies and onboards potential campaign leads.
+
+   2. Internal Review & Validation
+At the daily 3 PM call, the BD team presents the lead to our Marketing and Production teams. Together, we evaluate:
+
+      * The campaign's fundraising potential
+
+      * Feasibility of a photo and video shoot
+
+      * Relatability and relevance of the story
+
+Once the lead is approved, the campaign moves forward.
+         3. Opportunity Creation
+ The assigned Campaign Manager creates an opportunity in Salesforce, adding a brief along with the details of the NGO’s Single Point of Contact (SPOC).
+
+         4. Content Development Begins
+The Content Team picks up the lead from Salesforce and initiates a detailed conversation with the beneficiary, also known as the campaigner. The call focuses on:
+
+            * Their personal story and motivations
+
+            * Challenges and pain points
+
+            * Defining moments that shaped their mission
+
+            * Success stories or case studies
+
+               5. Crafting the Story
+Post-call, the Content Team creates a clear, concise narrative — sticking to a 350-word limit. Our focus is on:
+
+                  * Using simple, everyday language
+
+                  * A punchy introduction to draw readers in
+
+                  * An impactful headline highlighting a striking feature (e.g. the founder’s age, career shift, unique background, or number of beneficiaries)
+
+                  * A clear Call To Action (CTA) to encourage support 
+
+
+                     * Ad copies  (refer to this sheet for adding the ad copies after every campaign content )

@@ -1,0 +1,458 @@
+2025-06-09 10:54:21,097 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:20:44,869 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:20:59,826 - INFO - Backing off send_request(...) for 0.5s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 12:21:20,290 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:21:27,022 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:21:27,893 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:21:27,899 - INFO - Starting draft polishing process
+2025-06-09 12:21:27,900 - INFO - Loading SOP documents
+2025-06-09 12:21:27,902 - INFO - Loaded 10 SOP chunks
+2025-06-09 12:21:27,904 - INFO - Loading successful campaigns
+2025-06-09 12:21:27,925 - INFO - Loaded 80 campaign chunks
+2025-06-09 12:21:27,925 - INFO - Loading banned keywords
+2025-06-09 12:21:27,950 - INFO - Loaded banned keywords document
+2025-06-09 12:21:27,951 - INFO - Total documents to process: 90
+2025-06-09 12:21:27,951 - INFO - Chunking documents
+2025-06-09 12:21:27,954 - INFO - Created 657 chunks
+2025-06-09 12:21:27,954 - INFO - Embedding chunks
+2025-06-09 12:21:30,621 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:21:32,497 - INFO - Finished embedding chunks
+2025-06-09 12:21:32,498 - INFO - Upserting to ChromaDB
+2025-06-09 12:21:33,267 - INFO - Finished upserting to ChromaDB
+2025-06-09 12:21:33,269 - INFO - Polishing campaign draft
+2025-06-09 12:21:34,492 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:21:43,213 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 12:21:44,152 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:21:44,240 - INFO - Successfully polished draft
+2025-06-09 12:21:44,241 - INFO - Polished output stored in session state
+2025-06-09 12:22:52,050 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:22:55,315 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:22:55,319 - INFO - Starting draft polishing process
+2025-06-09 12:22:55,320 - INFO - Loading SOP documents
+2025-06-09 12:22:55,322 - INFO - Loaded 10 SOP chunks
+2025-06-09 12:22:55,323 - INFO - Loading successful campaigns
+2025-06-09 12:22:55,338 - INFO - Loaded 80 campaign chunks
+2025-06-09 12:22:55,338 - INFO - Loading banned keywords
+2025-06-09 12:22:55,365 - INFO - Loaded banned keywords document
+2025-06-09 12:22:55,366 - INFO - Total documents to process: 90
+2025-06-09 12:22:55,366 - INFO - Chunking documents
+2025-06-09 12:22:55,368 - INFO - Created 657 chunks
+2025-06-09 12:22:55,369 - INFO - Embedding chunks
+2025-06-09 12:22:57,764 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:22:59,623 - INFO - Finished embedding chunks
+2025-06-09 12:22:59,623 - INFO - Upserting to ChromaDB
+2025-06-09 12:23:00,245 - INFO - Finished upserting to ChromaDB
+2025-06-09 12:23:00,247 - INFO - Polishing campaign draft
+2025-06-09 12:23:01,198 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:23:16,226 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 12:23:16,967 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:23:17,063 - INFO - Successfully polished draft
+2025-06-09 12:23:17,064 - INFO - Polished output stored in session state
+2025-06-09 12:26:36,311 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:26:38,710 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:26:39,397 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:26:39,404 - INFO - Starting draft polishing process
+2025-06-09 12:26:39,405 - INFO - Loading SOP documents
+2025-06-09 12:26:39,408 - INFO - Loaded 10 SOP chunks
+2025-06-09 12:26:39,408 - INFO - Loading successful campaigns
+2025-06-09 12:26:39,430 - INFO - Loaded 80 campaign chunks
+2025-06-09 12:26:39,431 - INFO - Loading banned keywords
+2025-06-09 12:26:39,456 - INFO - Loaded banned keywords document
+2025-06-09 12:26:39,457 - INFO - Total documents to process: 90
+2025-06-09 12:26:39,457 - INFO - Chunking documents
+2025-06-09 12:26:39,462 - INFO - Created 657 chunks
+2025-06-09 12:26:39,462 - INFO - Embedding chunks
+2025-06-09 12:26:43,431 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:26:45,651 - INFO - Finished embedding chunks
+2025-06-09 12:26:45,651 - INFO - Upserting to ChromaDB
+2025-06-09 12:26:46,256 - INFO - Finished upserting to ChromaDB
+2025-06-09 12:26:46,258 - INFO - Polishing campaign draft
+2025-06-09 12:26:47,265 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:27:03,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 12:27:03,846 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:27:03,941 - INFO - Successfully polished draft
+2025-06-09 12:27:03,942 - INFO - Polished output stored in session state
+2025-06-09 12:27:21,244 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:27:23,549 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:27:24,382 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:27:24,387 - INFO - Starting draft polishing process
+2025-06-09 12:27:24,388 - INFO - Loading SOP documents
+2025-06-09 12:27:24,389 - INFO - Loaded 10 SOP chunks
+2025-06-09 12:27:24,389 - INFO - Loading successful campaigns
+2025-06-09 12:27:24,398 - INFO - Loaded 80 campaign chunks
+2025-06-09 12:27:24,398 - INFO - Loading banned keywords
+2025-06-09 12:27:24,425 - INFO - Loaded banned keywords document
+2025-06-09 12:27:24,426 - INFO - Total documents to process: 90
+2025-06-09 12:27:24,426 - INFO - Chunking documents
+2025-06-09 12:27:24,429 - INFO - Created 657 chunks
+2025-06-09 12:27:24,430 - INFO - Embedding chunks
+2025-06-09 12:27:27,021 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:27:29,077 - INFO - Finished embedding chunks
+2025-06-09 12:27:29,077 - INFO - Upserting to ChromaDB
+2025-06-09 12:27:29,693 - INFO - Finished upserting to ChromaDB
+2025-06-09 12:27:29,694 - INFO - Polishing campaign draft
+2025-06-09 12:27:30,536 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:27:45,717 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 12:27:46,723 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 12:27:46,829 - INFO - Successfully polished draft
+2025-06-09 12:27:46,830 - INFO - Polished output stored in session state
+2025-06-09 12:35:37,129 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:44:22,272 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:44:37,226 - INFO - Backing off send_request(...) for 0.8s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 12:44:54,363 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:47:39,638 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:47:42,586 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:48:07,126 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:48:07,352 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:48:07,366 - INFO - Generating new draft for category 'Hunger' with objective 'a girl who is poor as hell wants to learn german but she is poor
+' and tone 'emotional'
+2025-06-09 12:48:40,414 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 12:48:40,418 - INFO - Draft generated successfully and stored in session state
+2025-06-09 12:48:55,033 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:48:56,412 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:49:29,089 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:50:54,037 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:50:56,603 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:50:57,237 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:50:58,235 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 12:52:57,513 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:02:54,212 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:02:56,234 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:27,187 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:31,650 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:35,154 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:37,922 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:38,665 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:40,388 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:41,360 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:46:42,318 - INFO - Backing off send_request(...) for 0.7s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 13:49:05,959 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:49:06,400 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 13:49:06,803 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:04:24,235 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:06:56,469 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:06:58,376 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:06:58,385 - INFO - Starting draft polishing process
+2025-06-09 15:06:58,389 - INFO - Loading SOP documents
+2025-06-09 15:06:58,400 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:06:58,408 - INFO - Loading successful campaigns
+2025-06-09 15:06:58,555 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:06:58,556 - INFO - Loading banned keywords
+2025-06-09 15:06:58,700 - INFO - Loaded banned keywords document
+2025-06-09 15:06:58,702 - INFO - Total documents to process: 90
+2025-06-09 15:06:58,703 - INFO - Chunking documents
+2025-06-09 15:06:58,714 - INFO - Created 657 chunks
+2025-06-09 15:06:58,715 - INFO - Embedding chunks
+2025-06-09 15:07:01,432 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-09 15:09:56,085 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:09:57,808 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:09:57,816 - INFO - Starting draft polishing process
+2025-06-09 15:09:57,817 - INFO - Loading SOP documents
+2025-06-09 15:09:57,823 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:09:57,833 - INFO - Loading successful campaigns
+2025-06-09 15:09:57,847 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:09:57,847 - INFO - Loading banned keywords
+2025-06-09 15:09:57,883 - INFO - Loaded banned keywords document
+2025-06-09 15:09:57,883 - INFO - Total documents to process: 90
+2025-06-09 15:09:57,884 - INFO - Chunking documents
+2025-06-09 15:09:57,888 - INFO - Created 657 chunks
+2025-06-09 15:09:57,889 - INFO - Embedding chunks
+2025-06-09 15:09:59,031 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-09 15:12:31,892 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:12:33,576 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:13:06,780 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:13:36,908 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:13:37,030 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:13:37,037 - INFO - Starting draft polishing process
+2025-06-09 15:13:37,040 - INFO - Loading SOP documents
+2025-06-09 15:13:37,042 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:13:37,043 - INFO - Loading successful campaigns
+2025-06-09 15:13:37,057 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:13:37,058 - INFO - Loading banned keywords
+2025-06-09 15:13:37,106 - INFO - Loaded banned keywords document
+2025-06-09 15:13:37,107 - INFO - Total documents to process: 90
+2025-06-09 15:13:37,107 - INFO - Chunking documents
+2025-06-09 15:13:37,110 - INFO - Created 657 chunks
+2025-06-09 15:13:37,111 - INFO - Embedding chunks
+2025-06-09 15:13:38,750 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-09 15:15:17,647 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:15:24,283 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:15:24,570 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:15:24,619 - INFO - Starting draft polishing process
+2025-06-09 15:15:24,622 - INFO - Loading SOP documents
+2025-06-09 15:15:24,654 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:15:24,655 - INFO - Loading successful campaigns
+2025-06-09 15:15:24,688 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:15:24,689 - INFO - Loading banned keywords
+2025-06-09 15:15:24,777 - INFO - Loaded banned keywords document
+2025-06-09 15:15:24,778 - INFO - Total documents to process: 90
+2025-06-09 15:15:24,778 - INFO - Chunking documents
+2025-06-09 15:15:24,786 - INFO - Created 657 chunks
+2025-06-09 15:15:24,787 - INFO - Embedding chunks
+2025-06-09 15:15:26,477 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-09 15:20:24,519 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:20:29,840 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:20:30,303 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:20:30,317 - INFO - Starting draft polishing process
+2025-06-09 15:20:30,320 - INFO - Loading SOP documents
+2025-06-09 15:20:30,322 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:20:30,323 - INFO - Loading successful campaigns
+2025-06-09 15:20:30,337 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:20:30,338 - INFO - Loading banned keywords
+2025-06-09 15:20:30,386 - INFO - Loaded banned keywords document
+2025-06-09 15:20:30,386 - INFO - Total documents to process: 90
+2025-06-09 15:20:30,387 - INFO - Chunking documents
+2025-06-09 15:20:30,390 - INFO - Created 657 chunks
+2025-06-09 15:20:30,390 - INFO - Embedding chunks
+2025-06-09 15:20:33,062 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-09 15:27:32,528 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:27:36,349 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:27:36,358 - INFO - Starting draft polishing process
+2025-06-09 15:27:36,361 - INFO - Loading SOP documents
+2025-06-09 15:27:36,364 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:27:36,366 - INFO - Loading successful campaigns
+2025-06-09 15:27:36,379 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:27:36,380 - INFO - Loading banned keywords
+2025-06-09 15:27:36,415 - INFO - Loaded banned keywords document
+2025-06-09 15:27:36,419 - INFO - Total documents to process: 90
+2025-06-09 15:27:36,419 - INFO - Chunking documents
+2025-06-09 15:27:36,423 - INFO - Created 657 chunks
+2025-06-09 15:27:36,423 - INFO - Embedding chunks
+2025-06-09 15:27:37,606 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:27:37,607 - INFO - Retrying request to /embeddings in 0.425357 seconds
+2025-06-09 15:27:38,745 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:27:38,750 - INFO - Retrying request to /embeddings in 0.953444 seconds
+2025-06-09 15:27:39,999 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:27:47,382 - INFO - Backing off send_request(...) for 0.1s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 15:30:08,198 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:30:13,866 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:30:14,096 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:30:14,148 - INFO - Starting draft polishing process
+2025-06-09 15:30:14,195 - INFO - Loading SOP documents
+2025-06-09 15:30:14,209 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:30:14,210 - INFO - Loading successful campaigns
+2025-06-09 15:30:14,360 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:30:14,375 - INFO - Loading banned keywords
+2025-06-09 15:30:14,621 - INFO - Loaded banned keywords document
+2025-06-09 15:30:14,622 - INFO - Total documents to process: 90
+2025-06-09 15:30:14,622 - INFO - Chunking documents
+2025-06-09 15:30:14,634 - INFO - Created 657 chunks
+2025-06-09 15:30:14,635 - INFO - Embedding chunks
+2025-06-09 15:30:17,569 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:30:17,569 - INFO - Retrying request to /embeddings in 0.391620 seconds
+2025-06-09 15:30:18,594 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:30:18,595 - INFO - Retrying request to /embeddings in 0.962853 seconds
+2025-06-09 15:30:20,292 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:39:27,434 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:39:29,114 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 15:39:29,123 - INFO - Starting draft polishing process
+2025-06-09 15:39:29,125 - INFO - Loading SOP documents
+2025-06-09 15:39:29,128 - INFO - Loaded 10 SOP chunks
+2025-06-09 15:39:29,129 - INFO - Loading successful campaigns
+2025-06-09 15:39:29,143 - INFO - Loaded 80 campaign chunks
+2025-06-09 15:39:29,144 - INFO - Loading banned keywords
+2025-06-09 15:39:29,175 - INFO - Loaded banned keywords document
+2025-06-09 15:39:29,176 - INFO - Total documents to process: 90
+2025-06-09 15:39:29,176 - INFO - Chunking documents
+2025-06-09 15:39:29,180 - INFO - Created 657 chunks
+2025-06-09 15:39:29,180 - INFO - Embedding chunks
+2025-06-09 15:39:30,432 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:39:30,433 - INFO - Retrying request to /embeddings in 0.421301 seconds
+2025-06-09 15:39:31,750 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:39:31,751 - INFO - Retrying request to /embeddings in 0.824075 seconds
+2025-06-09 15:39:33,196 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+2025-06-09 15:39:42,381 - INFO - Backing off send_request(...) for 0.1s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 16:08:09,680 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:08:10,938 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:08:10,943 - INFO - Starting draft polishing process
+2025-06-09 16:08:10,946 - INFO - Loading SOP documents
+2025-06-09 16:08:10,949 - INFO - Loaded 10 SOP chunks
+2025-06-09 16:08:10,949 - INFO - Loading successful campaigns
+2025-06-09 16:08:10,959 - INFO - Loaded 80 campaign chunks
+2025-06-09 16:08:10,962 - INFO - Loading banned keywords
+2025-06-09 16:08:10,999 - INFO - Loaded banned keywords document
+2025-06-09 16:08:11,003 - INFO - Total documents to process: 90
+2025-06-09 16:08:11,004 - INFO - Chunking documents
+2025-06-09 16:08:11,008 - INFO - Created 657 chunks
+2025-06-09 16:08:11,009 - INFO - Embedding chunks
+2025-06-09 16:08:11,898 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2025-06-09 16:08:24,790 - INFO - Backing off send_request(...) for 0.7s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 16:16:59,789 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:17:00,668 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:17:00,676 - INFO - Starting draft polishing process
+2025-06-09 16:17:00,678 - INFO - Loading SOP documents
+2025-06-09 16:17:00,679 - INFO - Loaded 10 SOP chunks
+2025-06-09 16:17:00,680 - INFO - Loading successful campaigns
+2025-06-09 16:17:00,699 - INFO - Loaded 80 campaign chunks
+2025-06-09 16:17:00,700 - INFO - Loading banned keywords
+2025-06-09 16:17:00,734 - INFO - Loaded banned keywords document
+2025-06-09 16:17:00,734 - INFO - Total documents to process: 90
+2025-06-09 16:17:00,734 - INFO - Chunking documents
+2025-06-09 16:17:00,738 - INFO - Created 657 chunks
+2025-06-09 16:17:00,738 - INFO - Embedding chunks
+2025-06-09 16:17:02,973 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:17:05,451 - INFO - Finished embedding chunks
+2025-06-09 16:17:05,452 - INFO - Upserting to ChromaDB
+2025-06-09 16:17:10,238 - INFO - Finished upserting to ChromaDB
+2025-06-09 16:17:10,242 - INFO - Polishing campaign draft
+2025-06-09 16:17:12,029 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:17:14,710 - INFO - Backing off send_request(...) for 0.8s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 16:17:30,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 16:17:31,520 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:17:31,619 - INFO - Successfully polished draft
+2025-06-09 16:17:31,620 - INFO - Polished output stored in session state
+2025-06-09 16:17:41,594 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:17:43,739 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:33:20,329 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:33:42,008 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:33:42,221 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:33:42,228 - INFO - Starting draft polishing process
+2025-06-09 16:33:42,231 - INFO - Loading SOP documents
+2025-06-09 16:33:42,240 - INFO - Loaded 10 SOP chunks
+2025-06-09 16:33:42,240 - INFO - Loading successful campaigns
+2025-06-09 16:33:42,270 - INFO - Loaded 80 campaign chunks
+2025-06-09 16:33:42,272 - INFO - Loading banned keywords
+2025-06-09 16:33:42,403 - INFO - Loaded banned keywords document
+2025-06-09 16:33:42,404 - INFO - Total documents to process: 90
+2025-06-09 16:33:42,405 - INFO - Chunking documents
+2025-06-09 16:33:42,433 - INFO - Created 657 chunks
+2025-06-09 16:33:42,435 - INFO - Embedding chunks
+2025-06-09 16:33:47,363 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:33:49,619 - INFO - Finished embedding chunks
+2025-06-09 16:33:49,620 - INFO - Upserting to ChromaDB
+2025-06-09 16:33:54,149 - INFO - Finished upserting to ChromaDB
+2025-06-09 16:33:54,153 - INFO - Polishing campaign draft
+2025-06-09 16:33:56,617 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:34:17,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 16:34:19,441 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:34:19,602 - INFO - Successfully polished draft
+2025-06-09 16:34:19,605 - INFO - Polished output stored in session state
+2025-06-09 16:34:31,856 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:34:35,610 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:34:35,893 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:34:35,901 - INFO - Generating new draft for category 'Hunger' with objective 'Mehak, a 14-year-old topper from a remote UP village, was diagnosed with a spinal tumor during her board exam prep. She wants to become a doctor but is now bed-bound. Her father, a primary school teacher, has exhausted savings after two rounds of surgery. They need funds for post-operative therapy and school continuity support.
+' and tone 'emotional'
+2025-06-09 16:35:08,099 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 16:35:08,102 - INFO - Draft generated successfully and stored in session state
+2025-06-09 16:36:37,006 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:36:43,306 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:36:43,588 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:36:43,603 - INFO - Starting draft polishing process
+2025-06-09 16:36:43,626 - INFO - Loading SOP documents
+2025-06-09 16:36:43,635 - INFO - Loaded 10 SOP chunks
+2025-06-09 16:36:43,637 - INFO - Loading successful campaigns
+2025-06-09 16:36:43,685 - INFO - Loaded 80 campaign chunks
+2025-06-09 16:36:43,686 - INFO - Loading banned keywords
+2025-06-09 16:36:43,779 - INFO - Loaded banned keywords document
+2025-06-09 16:36:43,779 - INFO - Total documents to process: 90
+2025-06-09 16:36:43,780 - INFO - Chunking documents
+2025-06-09 16:36:43,791 - INFO - Created 657 chunks
+2025-06-09 16:36:43,792 - INFO - Embedding chunks
+2025-06-09 16:36:46,598 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:36:48,538 - INFO - Finished embedding chunks
+2025-06-09 16:36:48,539 - INFO - Upserting to ChromaDB
+2025-06-09 16:36:54,299 - INFO - Finished upserting to ChromaDB
+2025-06-09 16:36:54,539 - INFO - Polishing campaign draft
+2025-06-09 16:36:56,126 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:37:11,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 16:37:12,307 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:37:12,428 - INFO - Successfully polished draft
+2025-06-09 16:37:12,429 - INFO - Polished output stored in session state
+2025-06-09 16:57:36,902 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:57:37,175 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:57:37,191 - INFO - Starting draft polishing process
+2025-06-09 16:57:37,200 - INFO - Loading SOP documents
+2025-06-09 16:57:37,205 - INFO - Loaded 10 SOP chunks
+2025-06-09 16:57:37,205 - INFO - Loading successful campaigns
+2025-06-09 16:57:37,307 - INFO - Loaded 80 campaign chunks
+2025-06-09 16:57:37,307 - INFO - Loading banned keywords
+2025-06-09 16:57:37,387 - INFO - Loaded banned keywords document
+2025-06-09 16:57:37,388 - INFO - Total documents to process: 90
+2025-06-09 16:57:37,388 - INFO - Chunking documents
+2025-06-09 16:57:37,398 - INFO - Created 657 chunks
+2025-06-09 16:57:37,399 - INFO - Embedding chunks
+2025-06-09 16:57:41,324 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:57:43,720 - INFO - Finished embedding chunks
+2025-06-09 16:57:43,721 - INFO - Upserting to ChromaDB
+2025-06-09 16:57:47,801 - INFO - Finished upserting to ChromaDB
+2025-06-09 16:57:47,854 - INFO - Polishing campaign draft
+2025-06-09 16:57:50,029 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:57:59,286 - INFO - Backing off send_request(...) for 0.0s (requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='us.i.posthog.com', port=443): Read timed out. (read timeout=15))
+2025-06-09 16:58:06,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-09 16:58:08,362 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-09 16:58:08,476 - INFO - Successfully polished draft
+2025-06-09 16:58:08,477 - INFO - Polished output stored in session state
+2025-06-09 16:58:55,832 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:59:06,601 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 16:59:39,824 - INFO - Initializing Campaign Draft Polisher application
+2025-06-09 18:46:42,521 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:56:24,815 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:57:03,358 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:57:03,677 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:57:03,686 - INFO - Starting draft polishing process
+2025-06-10 11:57:03,689 - INFO - Loading SOP documents
+2025-06-10 11:57:03,696 - INFO - Loaded 10 SOP chunks
+2025-06-10 11:57:03,698 - INFO - Loading successful campaigns
+2025-06-10 11:57:03,761 - INFO - Loaded 80 campaign chunks
+2025-06-10 11:57:03,761 - INFO - Loading banned keywords
+2025-06-10 11:57:03,876 - INFO - Loaded banned keywords document
+2025-06-10 11:57:03,877 - INFO - Total documents to process: 90
+2025-06-10 11:57:03,877 - INFO - Chunking documents
+2025-06-10 11:57:03,888 - INFO - Created 657 chunks
+2025-06-10 11:57:03,889 - INFO - Embedding chunks
+2025-06-10 11:57:11,617 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 11:57:14,279 - INFO - Finished embedding chunks
+2025-06-10 11:57:14,281 - INFO - Upserting to ChromaDB
+2025-06-10 11:57:15,438 - INFO - Finished upserting to ChromaDB
+2025-06-10 11:57:15,440 - INFO - Polishing campaign draft
+2025-06-10 11:57:16,707 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 11:57:36,713 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 11:57:39,963 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 11:57:43,197 - INFO - Successfully polished draft
+2025-06-10 11:57:43,200 - INFO - Polished output stored in session state
+2025-06-10 11:58:12,734 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:58:13,091 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:58:13,109 - INFO - Starting draft polishing process
+2025-06-10 11:58:13,116 - INFO - Loading SOP documents
+2025-06-10 11:58:13,119 - INFO - Loaded 10 SOP chunks
+2025-06-10 11:58:13,119 - INFO - Loading successful campaigns
+2025-06-10 11:58:13,246 - INFO - Loaded 80 campaign chunks
+2025-06-10 11:58:13,247 - INFO - Loading banned keywords
+2025-06-10 11:58:13,353 - INFO - Loaded banned keywords document
+2025-06-10 11:58:13,354 - INFO - Total documents to process: 90
+2025-06-10 11:58:13,354 - INFO - Chunking documents
+2025-06-10 11:58:13,367 - INFO - Created 657 chunks
+2025-06-10 11:58:13,368 - INFO - Embedding chunks
+2025-06-10 11:58:27,191 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 11:58:29,646 - INFO - Finished embedding chunks
+2025-06-10 11:58:29,647 - INFO - Upserting to ChromaDB
+2025-06-10 11:58:33,021 - INFO - Finished upserting to ChromaDB
+2025-06-10 11:58:33,027 - INFO - Polishing campaign draft
+2025-06-10 11:58:35,893 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 11:58:51,462 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 11:58:54,838 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 11:58:55,352 - INFO - Successfully polished draft
+2025-06-10 11:58:55,354 - INFO - Polished output stored in session state
+2025-06-10 11:59:52,104 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:59:52,399 - INFO - Initializing Campaign Draft Polisher application
+2025-06-10 11:59:52,407 - INFO - Starting draft polishing process
+2025-06-10 11:59:52,409 - INFO - Loading SOP documents
+2025-06-10 11:59:52,519 - INFO - Loaded 10 SOP chunks
+2025-06-10 11:59:52,532 - INFO - Loading successful campaigns
+2025-06-10 11:59:52,576 - INFO - Loaded 80 campaign chunks
+2025-06-10 11:59:52,604 - INFO - Loading banned keywords
+2025-06-10 11:59:52,896 - INFO - Loaded banned keywords document
+2025-06-10 11:59:52,898 - INFO - Total documents to process: 90
+2025-06-10 11:59:52,899 - INFO - Chunking documents
+2025-06-10 11:59:52,922 - INFO - Created 657 chunks
+2025-06-10 11:59:53,004 - INFO - Embedding chunks
+2025-06-10 11:59:57,722 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 12:00:00,492 - INFO - Finished embedding chunks
+2025-06-10 12:00:00,493 - INFO - Upserting to ChromaDB
+2025-06-10 12:00:05,077 - INFO - Finished upserting to ChromaDB
+2025-06-10 12:00:05,082 - INFO - Polishing campaign draft
+2025-06-10 12:00:08,465 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 12:00:27,923 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-06-10 12:00:29,764 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-06-10 12:00:30,147 - INFO - Successfully polished draft
+2025-06-10 12:00:30,150 - INFO - Polished output stored in session state

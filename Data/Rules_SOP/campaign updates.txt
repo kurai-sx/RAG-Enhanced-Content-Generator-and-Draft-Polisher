@@ -1,0 +1,25 @@
+﻿Campaign Updates Process
+We believe in keeping our donors informed about the impact they've created. Here’s how we manage regular campaign updates:
+1. Collecting Update Information
+Our Business Development (BD) team adds campaigns that need updates to a shared sheet. They also include raw details such as the list of products delivered and their quantities.
+
+2. Drafting Updates
+There are two types of updates — one for the website and one for WhatsApp.
+
+Website Update
+   * Written from the Changemaker’s point of view, thanking donors for their support.
+
+   * The update should mention the main products delivered and their quantities in a natural, easy-to-read way (avoid listicles). Other products can be mentioned casually, separated by commas.
+
+   * The tone should be warm, heartfelt, and filled with gratitude.
+
+   * The update is signed off by the NGO or individual changemaker.
+
+WhatsApp Update
+      * Shorter and more direct (not more than 400 characters) 
+
+      * Written from Donatekart’s point of view in a passive voice.
+
+      * Focus on highlighting a few key products delivered — no need to mention the full list.
+
+      * The tone should be clear, friendly, and informative.
