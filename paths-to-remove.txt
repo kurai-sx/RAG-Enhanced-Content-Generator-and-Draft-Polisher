@@ -1,0 +1,2 @@
+Data/chroma_index/732161fe-5e01-4995-8573-c69fac9c7d4c/data_level0.bin
+Model Files/chroma_index/dece20cb-b5cc-419a-b638-a9e71be2cad3/data_level0.bin
