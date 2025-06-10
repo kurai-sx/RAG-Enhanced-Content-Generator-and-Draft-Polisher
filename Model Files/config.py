@@ -1,9 +1,9 @@
 import os
+from dotenv import load_dotenv
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "YOUR_API_KEY_HERE")
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 EMBED_MODEL = "text-embedding-3-small"
 CHUNK_SIZE = 500
 CHUNK_OVERLAP = 50
-
-# Chroma DB settings
 CHROMA_DIR = "chroma_index"
