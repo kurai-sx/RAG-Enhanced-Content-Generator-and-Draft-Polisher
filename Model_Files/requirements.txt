@@ -1,9 +1,0 @@
-openai
-langchain
-pandas
-PyPDF2
-streamlit
-chromadb
-langchain-openai
-langchain-community
-
