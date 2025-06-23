@@ -1,0 +1,9 @@
+Here is where you will upload your data and create you own knowledge base.
+Make sure you upload each and every file for the model to successfully extract the data and send it for vectorization.
+
+Make sure you have 3 files:
+1. Banned Keywords File
+2. Successful Campaigns File
+3. Campaign Categories File
+
+And also make another folder for Rules SOP where you will put all the rules of files of the model.
